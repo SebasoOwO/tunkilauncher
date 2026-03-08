@@ -20,5 +20,5 @@ $instance['AG_GAMES'] = array_merge($instance['AG_GAMES'], array(
         "ip" => "172.96.140.50",
         "port" => 25588
     )
-));
+#aaf
 ?>
