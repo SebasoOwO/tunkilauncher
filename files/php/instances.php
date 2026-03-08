@@ -8,7 +8,10 @@ $instance['AG_GAMES'] = array_merge($instance['AG_GAMES'], array(
     "verify" => true,
     "ignored" => array(
         'config',
+        'essential',
         'logs',
+        'resourcepacks',
+        'saves',
         'screenshots',
         'options.txt',
         'optionsof.txt'
@@ -17,8 +20,8 @@ $instance['AG_GAMES'] = array_merge($instance['AG_GAMES'], array(
     "whitelistActive" => false,
     "status" => array(
         "nameServer" => "AG GAMES",
-        "ip" => "172.96.140.50",
-        "port" => 25588
+        "ip" => "mc.hypixel.net",
+        "port" => 25565
     )
 ));
 ?>
